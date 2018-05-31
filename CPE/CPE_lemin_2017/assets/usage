@@ -1,0 +1,8 @@
+USAGE:
+	./lemin
+DESCRIPTION
+	First argument must be the number of ants.
+'#' represent a comment so it will not affect the code.
+'##' represent a command so it will affect the code made.
+Any usage must be done with at least one '##start' command
+and a '##end' command

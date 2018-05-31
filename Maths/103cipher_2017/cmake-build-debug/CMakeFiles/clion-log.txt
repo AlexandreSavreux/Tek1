@@ -1,0 +1,52 @@
+/usr/bin/make -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/f.louvet/Projets/103cipher_2017
+/usr/bin/make : option invalide -- 'D'
+/usr/bin/make : option invalide -- 'D'
+/usr/bin/make : option invalide -- 'D'
+/usr/bin/make : option invalide -- 'D'
+/usr/bin/make : option invalide -- 'G'
+Utilisation : make [options] [cible] ...
+Options :
+  -b, -m                      Ignoré pour compatibilité.
+  -B, --always-make           Fabriquer toutes les cibles sans condition.
+  -C RÉPERTOIRE, --directory=RÉPERTOIRE
+                              Se placer dans le RÉPERTOIRE avant toute action.
+  -d                          Afficher beaucoup d'informations de débogage.
+  --debug[=FLAGS]             Afficher divers types d'informations de débogage.
+  -e, --environment-overrides
+                              Les variables d'environment sont prioritaires sur les makefiles.
+  --eval=CHAINE               Evaluer la CHAINE comme une instruction de makefile.
+  -f FICHIER, --file=FICHIER, --makefile=FICHIER
+                              Lire le FICHIER comme un makefile.
+  -h, --help                  Afficher ce message et quitter.
+  -i, --ignore-errors         Ignorer les erreurs venant des recettes.
+  -I RÉPERTOIRE, --include-dir=RÉPERTOIRE
+                              Chercher dans le RÉPERTOIRE les makefiles traités par inclusion.
+  -j [N], --jobs[=N]          Autoriser N tâches simultanées ; nombre infini si utilisé sans argument.
+  -k, --keep-going            Poursuivre même si certaines cibles n'ont pas pu être fabriquées.
+  -l [N], --load-average[=N], --max-load[=N]
+                              Ne pas lancer de tâches multiples à moins que la charge soit inférieure à N.
+  -L, --check-symlink-times   Utiliser le « mtime » le plus récent entre les liens symboliques et la cible.
+  -n, --just-print, --dry-run, --recon
+                              N'exécuter aucune recette ; seulement les afficher.
+  -o FICHIER, --old-file=FICHIER, --assume-old=FICHIER
+                              Considérer le FICHIER comme étant très ancien et ne pas le refabriquer.
+  -O[TYPE], --output-sync[=TYPE]
+                              Synchronise la sortie des tâches parallèles par TYPE.
+  -p, --print-data-base       Afficher la base de données interne de make.
+  -q, --question              Ne pas exécuter de recette ; le code de sortie indique si la cible est à jour.
+  -r, --no-builtin-rules      Désactiver les règles implicites internes.
+  -R, --no-builtin-variables  Désactiver les réglages des variables internes.
+  -s, --silent, --quiet       Ne pas répéter les recettes.
+  -S, --no-keep-going, --stop
+                              Désactiver -k.
+  -t, --touch                 Assigner l'heure actuelle aux cibles au lieu de les refabriquer.
+  --trace                     Afficher les traces mémoire.
+  -v, --version               Afficher le numéro de version de make et quitter.
+  -w, --print-directory       Afficher le répertoire courant.
+  --no-print-directory        Désactiver l'option -w, même si elle a été activée implicitement.
+  -W FICHIER, --what-if=FICHIER, --new-file=FICHIER, --assume-new=FICHIER
+                              Considérer le FICHIER comme étant toujours nouveau.
+  --warn-undefined-variables  Prévenir lorsqu'une variable non définie est référencée.
+
+Ce programme est construit pour x86_64-redhat-linux-gnu
+Signaler les anomalies à <bug-make@gnu.org>.

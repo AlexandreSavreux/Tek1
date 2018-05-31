@@ -1,0 +1,32 @@
+#!/usr/bin/python3
+
+###################################################
+### Euler project
+### zdrassvouitie @ 2016/2017
+###################################################
+
+import time
+from math import log
+
+start = time.time()
+
+file_name = '099_data'
+nb = {}
+maxi = [100, 100]
+res = 0
+i = 1
+with open(file_name, "r") as f:
+    while True:
+        try:
+            temp = list(map(lambda x: int(x), f.readline().rstrip().split(',')))
+            if (temp[1] / maxi[1]) > (log(maxi[0]) / log(temp[0])):
+                maxi = temp
+                res = i
+            i += 1
+        except:
+            break
+
+print(res)
+
+end = time.time()
+print('Time is {:.3f} seconds'.format(end - start))

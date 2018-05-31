@@ -1,0 +1,29 @@
+#!/usr/bin/python3
+
+###################################################
+### Euler project
+### zdrassvouitie @ 01/2017
+###################################################
+
+file_name = '42_data'
+
+
+def string_sum(s:str) -> int:
+	res = 0
+	for l in list(s):
+		res += ord(l) - 96
+	return res
+
+triangles = [int(0.5*i*(i+1)) for i in range(25)]
+
+tri_words = []
+with open(file_name,"r") as f:
+	words = f.readline().split(",")
+for w in words:
+	w = w.replace(' ','').replace('"', '').lower()
+	s = string_sum(w)
+	if s in triangles:
+		print("{} is a {} triangle word".format(w,s))
+		tri_words.append(w)
+
+print(len(tri_words))

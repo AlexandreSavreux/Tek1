@@ -1,0 +1,587 @@
+!<arch>
+//                                              188       `
+my_compute_power_rec.c/
+my_compute_square_root.c/
+my_find_prime_sup.c/
+my_sort_int_array.c/
+my_strcapitalize.c/
+my_str_isalpha.c/
+my_str_islower.c/
+my_str_isprintable.c/
+my_str_isupper.c/
+/0              1507311629  1000  1000  100664  391       `
+/*
+** EPITECH PROJECT, 2017
+** my_compute_power_rec.c
+** File description:
+** Same that previous but recursive
+*/
+
+int my_compute_power_rec (int nb, int p)
+{
+	long r = nb;
+
+	if (p == 0)
+		return (1);
+	if (p < 0 || r >= 2147483647 || r <= -2147483648)
+		return (0);
+	r = (nb * my_compute_power_rec( nb, p - 1));
+	if (r < 0 || r >= 2147483647 || r <= -2147483648)
+		return (0);
+	return (r);
+}
+
+/24             1507371531  1000  1000  100644  460       `
+/*
+** EPITECH PROJECT, 2017
+** my_compute_square_root.c
+** File description:
+** Displays the square root of the number passed as parameter
+*/
+
+int my_condition (int nb, int c, int i)
+{
+	while (c <= nb)	{
+		c = i * i;
+		if (c > nb)
+			return (i);
+		if (c == nb)
+			return (i);
+		else if (c < 0)
+			return (0);
+		i++;
+	}
+}
+
+int     my_compute_square_root(int nb)
+{
+	int i = 0;
+	int c = 0;
+	int result = 0;
+
+	result = my_condition( nb, c, i);
+	return (result);
+}
+/50             1507544289  1000  1000  100664  782       `
+/*
+** EPITECH PROJECT, 2017
+** my_find_prime_sup.c
+** File description:
+** Find the smallest greater prime number
+*/
+
+int my_loop_condition (int nb, int c, int i)
+{
+	while (c <= nb)	{
+		c = i * i;
+		if (c > nb)
+			return (i);
+		if (c == nb)
+			return (i);
+		else if (c < 0)
+			return (0);
+		i++;
+	}
+}
+
+int     my_square_root (int nb)
+{
+	int i = 0;
+	int c = 0;
+	int result = 0;
+
+	result = my_loop_condition( nb, c, i);
+	return (result);
+}
+
+int my_is_prime2 (int nb)
+{
+	int a = nb;
+
+	if (nb < 2)
+		return (0);
+	if (nb == 3)
+		return (1);
+	for (int i = 2 ; i <= my_square_root(a) ; i++) {
+		if ( (nb % i) != 0) {
+			return (1);
+		}
+	}
+	return (0);
+}
+
+int my_find_prime_sup (int nb)
+{
+	if (nb > 2 && nb % 2 == 0)
+		nb = nb + 1;
+	while (!my_is_prime2(nb))
+		nb = nb + 2;
+	return (nb);
+}
+my_getnbr.c/    1507744922  1000  1000  100664  152       `
+/*
+** EPITECH PROJECT, 2017
+** my_getnbr.c
+** File description:
+** Returns the number in the string
+*/
+
+int my_getnbr(char const *str)
+{
+	return (0);
+}
+my_isneg.c/     1507719125  1000  1000  100664  157       `
+/*
+** EPITECH PROJECT, 2017
+** my_isneg.c
+** File description:
+**
+*/
+int my_isneg (int n)
+{
+	if (n < 0) {
+		my_putchar(78);
+	} else {
+		my_putchar(80);
+	}
+}
+
+my_is_prime.c/  1507719111  1000  1000  100664  646       `
+/*
+** EPITECH PROJECT, 2017
+** my_is_prime.c
+** File description:
+** Returns 1 if is a whole number and 0 if not
+*/
+int my_condition_loop (int nb, int c, int i)
+{
+	while (c <= nb)	{
+		c = i * i;
+		if (c > nb)
+			return (i);
+		if (c == nb)
+			return (i);
+		else if (c < 0)
+			return (0);
+		i++;
+	}
+}
+
+int     my_square_root_2(int nb)
+{
+	int i = 0;
+	int c = 0;
+	int result = 0;
+
+	result = my_condition_loop( nb, c, i);
+	return (result);
+}
+
+int my_is_prime(int nb)
+{
+	int a = nb;
+
+	if (nb < 2)
+		return (0);
+	if (nb == 3)
+		return (1);
+	for (int i = 2 ; i <= my_square_root_2(a) ; i++) {
+		if ( (nb % i) != 0) {
+			return (1);
+		}
+	}
+	return (0);
+}
+my_putchar.c/   1507647061  1000  1000  100644  138       `
+/*
+** EPITECH PROJECT, 2017
+** my_putchar.c
+** File description:
+** Displays a character
+*/
+void my_putchar(char c)
+{
+	write(1, &c, 1);
+}
+my_put_nbr.c/   1507719148  1000  1000  100664  129       `
+/*
+** EPITECH PROJECT, 2017
+** my_put_nbr.c
+** File description:
+** Displays a number
+*/
+int my_put_nbr(int nb)
+{
+	return (0);
+}
+
+my_putstr.c/    1507719158  1000  1000  100664  235       `
+/*
+** EPITECH PROJECT, 2017
+** my_putstr.c
+** File description:
+** Display one by one the characters of a string
+*/
+int my_putstr(char const *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0') {
+		my_putchar(str[i]);
+		i++;
+	}
+	return (0);
+}
+
+my_revstr.c/    1507719190  1000  1000  100664  368       `
+/*
+** EPITECH PROJECT, 2017
+** my_revstr.c
+** File description:
+** Reverses a string
+*/
+int my_strlen(char const *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0') {
+		i++;
+	}
+	return (i);
+}
+
+char *my_revstr(char *str)
+{
+	int j = my_strlen(str) - 1;
+	char temp;
+
+	for(int i = 0; i < j; i++ ) {
+		temp = str[i];
+		str[i] = str[j];
+		str[j] = temp;
+		j--;
+	}
+	return (str);
+}
+my_showmem.c/   1507719245  1000  1000  100664  151       `
+/*
+** EPITECH PROJECT, 2017
+** my_showmem.c
+** File description:
+** Shows us the memory
+*/
+
+int my_showmem(char const *str, int size)
+{
+	return (0);
+}
+
+my_showstr.c/   1507719231  1000  1000  100664  146       `
+/*
+** EPITECH PROJECT, 2017
+** my_showstr.c
+** File description:
+** Jissipa à quoi ça sert
+*/
+
+int my_showstr(char const *str)
+{
+	return (0);
+}
+/71             1507719324  1000  1000  100664  147       `
+/*
+** EPITECH PROJECT, 2017
+** my_sort_int_array.c
+** File description:
+** Sort int in an array
+*/
+
+void my_sort_int_array(int *tab, int size)
+{
+}
+
+/92             1507719365  1000  1000  100664  149       `
+/*
+** EPITECH PROJECT, 2017
+** my_strcapitalize.c
+** File description:
+** Capitalize a string
+*/
+
+char *my_strcapitalize(char *str)
+{
+	return (0);
+}
+
+my_strcat.c/    1507719385  1000  1000  100664  294       `
+/*
+** EPITECH PROJECT, 2017
+** my_strcat.c
+** File description:
+** Assemble deux strings
+*/
+
+char *my_strcat(char *dest, char const *src)
+{
+	int i;
+
+	for (i = 0; dest[i] != '\0'; i++) {
+	}
+	for (int n = 0; src[n] != '\0'; n++) {
+		dest[i] = src[n];
+		i++;
+	}
+	dest[i] = '\0';
+	return (dest);
+}
+my_strcmp.c/    1507719418  1000  1000  100664  317       `
+/*
+** EPITECH PROJECT, 2017
+** my_strcmp.c
+** File description:
+** Compares the lenght of two strings
+*/
+
+int my_strcmp(char const *s1 , char const *s2)
+{
+	int i;
+	int result;
+
+	for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
+		if (s1[i] != s2[i]) {
+			result = s1[i] - s2[i];
+			return (result);
+		}
+	return (0);
+}
+
+my_strcpy.c/    1507539520  1000  1000  100664  251       `
+/*
+** EPITECH PROJECT, 2017
+** my_strcpy.c
+** File description:
+** Copies a string into another
+*/
+
+char *my_strcpy(char *dest, char const *src)
+{
+	int i = 0;
+
+	while (src[i] != '\0') {
+		dest[i] = src[i];
+		i++;
+	}
+	dest[i] = '\0';
+	return (dest);
+}
+
+/112            1507719436  1000  1000  100664  158       `
+/*
+** EPITECH PROJECT, 2017
+** my_str_isalpha.c
+** File description:
+** Detects if there is a string
+*/
+
+int my_str_isalpha(char const *str)
+{
+	return (0);
+}
+/130            1507719446  1000  1000  100664  152       `
+/*
+** EPITECH PROJECT, 2017
+** my_str_islower.c
+** File description:
+** Detects if the string
+*/
+
+int my_str_islower(char const *str)
+{
+	return (0);
+}
+
+my_str_isnum.c/ 1507719455  1000  1000  100664  154       `
+/*
+** EPITECH PROJECT, 2017
+** my_str_isnum.c
+** File description:
+** Detects if there is a number
+*/
+
+int my_str_isnum(char const *str)
+{
+	return (0);
+}
+/148            1507719462  1000  1000  100664  170       `
+/*
+** EPITECH PROJECT, 2017
+** my_str_isprintable.c
+** File description:
+** Detects if a string is printable
+*/
+
+int my_str_isprintable(char const *str)
+{
+	return (0);
+}
+/170            1507719469  1000  1000  100664  160       `
+/*
+** EPITECH PROJECT, 2017
+** my_str_isupper.c
+** File description:
+** Detects if the string is upper
+*/
+
+int my_str_isupper(char const *str)
+{
+	return (0);
+}
+my_strlen.c/    1507217605  1000  1000  100664  235       `
+/*
+** EPITECH PROJECT, 2017
+** my_strlen.c
+** File description:
+** Returns the number of characters in the string passed as parameter
+*/
+
+int my_strlen(char const *str)
+{
+	int i = 0;
+
+	while	(str[i] != '\0') {
+		i++;
+	}
+	return (i);
+}
+
+my_strlowcase.c/1507719519  1000  1000  100664  148       `
+/*
+** EPITECH PROJECT, 2017
+** my_strlowcase.c
+** File description:
+** Put uppercase in lower
+*/
+
+char *my_strlowcase(char *str)
+{
+	return (str);
+}
+my_strncat.c/   1507719539  1000  1000  100664  310       `
+/*
+** EPITECH PROJECT, 2017
+** my_strncat.c
+** File description:
+** Same as previous
+*/
+
+char *my_strncat(char *dest, char const *src, int nb)
+{
+	int i;
+
+	for (i = 0; dest[i] != '\0'; i++) {
+	}
+	for (int n = 0; src[n] != '\0' && n != nb; n++) {
+		dest[i] = src[n];
+		i++;
+	}
+	dest[i] = '\0';
+	return (dest);
+}
+my_strncmp.c/   1507636268  1000  1000  100664  277       `
+/*
+** EPITECH PROJECT, 2017
+** my_strncmp.c
+** File description:
+** Compares the lenght of n first characters of two strings
+*/
+
+int my_strncmp(char const *s1 , char const *s2, int n)
+{
+	int i = 0;
+
+	n--;
+	while (i < n && s1[i] == s2[i]) {
+		i++;
+	}
+	return (s1[i] - s2[i]);
+}
+
+my_strncpy.c/   1507568427  1000  1000  100664  281       `
+/*
+** EPITECH PROJECT, 2017
+** my_strncpy.c
+** File description:
+** Copies n characters from a string into another
+*/
+
+char *my_strncpy(char *dest, char const *src, int n)
+{
+	for (int i = 0; src[i] != '\0' && n > i; i++) {
+		dest[i] = src[i];
+	}
+	dest[n] = '\0';
+	return (dest);
+}
+
+my_strstr.c/    1507646892  1000  1000  100664  400       `
+/*
+** EPITECH PROJECT, 2017
+** my_strstr
+** File description:
+** Finds a word into a string
+*/
+
+char	*my_strstr(char const *str,char const*to_find)
+{
+	int i = 0;
+	int n = 0;
+	int o = 0;
+	int mot = 0;
+
+	while (to_find[o] != '\0') {
+		o++;
+	}
+	while (str[i] != '\0' && n < o) {
+		n = 0;
+		while (str[i] == to_find[mot]) {
+			n++;
+			i++;
+			mot++;
+		}
+		mot = 0;
+		i++;
+	}
+	mot = i-o;
+	return (mot);
+}
+my_strupcase.c/ 1507623127  1000  1000  100664  246       `
+/*
+** EPITECH PROJECT, 2017
+** my_strupcase.c
+** File description:
+** Transforms upper in lowercase
+*/
+
+char *my_strupcase(char *str)
+{
+	for (int i = 0; str[i] != '\0'; i++) {
+		if (96 < str[1] < 123)
+			str[i] = str[i] - 32;
+	}
+	return (str);
+}
+my_swap.c/      1507209544  1000  1000  100664  164       `
+/*
+** EPITECH PROJECT, 2017
+** my_swap
+** File description:
+** swap two integers
+*/
+void my_swap (int *a, int *b)
+{
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
+}

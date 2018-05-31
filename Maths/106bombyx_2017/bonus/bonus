@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+
+import matplotlib.pyplot as plt
+from sys import argv
+
+x = []
+y = []
+file_name = argv[1]
+
+with open(file_name, "r") as f:
+    stop = 1
+    while stop != 0:
+        line = f.readline()
+        if len(line) < 1:
+            break
+        buff = line.split(" ")
+        x.append(buff[0])
+        y.append(buff[1][:-1])
+
+plt.ylabel('Number of bombyx')
+plt.xlabel('Growth rate')
+lx = [float(e) for e in x]
+ly = [float(e) for e in y]
+plt.plot(lx, ly, 'r.', )
+plt.axes().autoscale(enable=True, axis='both', tight=None)
+plt.show()

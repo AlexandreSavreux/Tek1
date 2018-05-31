@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/my.h
+stdarg.h
+-
+struct.h
+../include/struct.h
+
+../include/struct.h
+SFML/Audio.h
+-
+SFML/Graphics.h
+-
+SFML/Window.h
+-
+SFML/System.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/home/tiflo/Projets/Bootstraps/my_cook/src/main.c
+my.h
+/home/tiflo/Projets/Bootstraps/my_cook/src/my.h
+

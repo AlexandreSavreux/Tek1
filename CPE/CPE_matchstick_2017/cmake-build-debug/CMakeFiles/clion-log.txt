@@ -1,0 +1,15 @@
+/home/tiflo/Apps/clion-2017.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/tiflo/Projets/CPE/CPE_matchstick_2017
+-- Configuring done
+CMake Error at CMakeLists.txt:8 (add_executable):
+  Cannot find source file:
+
+    lib/my/my_puterror.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: CPE_matchstick_2017
+CMake Error: Cannot determine link language for target "CPE_matchstick_2017".
+-- Generating done
+-- Build files have been written to: /home/tiflo/Projets/CPE/CPE_matchstick_2017/cmake-build-debug

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../static/css/register.css">
+</head>
+<body>
+<div class="imgcontainer">
+    <img src="https://gitlab.clementdugal.fr/uploads/-/system/group/avatar/4/epitech.png" alt="Logo" class="Logo">
+</div>
+<center><b><label id="Logged"></label></b></center>
+
+<div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" id="usr" placeholder="Enter Username" name="username" required>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" id="pwd" placeholder="Enter Password" name="password" required>
+
+    <button id="btnSend">Sign in</button>
+</div>
+
+<form>
+    <div class="container" style="background-color:#f1f1f1">
+        <a href="{{ url_for('route_index') }}">
+            <button type="button" class="cancelbtn">Back</button>
+        </a>
+    </div>
+</form>
+</body>
+</html>
+<script src="../static/js/jquery-3.3.1.min.js"></script>
+<script src="../static/js/signin.js"></script>

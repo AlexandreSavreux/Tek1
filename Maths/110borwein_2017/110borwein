@@ -1,0 +1,115 @@
+#!/usr/bin/ruby
+# -*- coding: utf-8 -*-
+require 'ruby2d'
+require 'colorize'
+
+if ARGV.length != 1 or ARGV[0].length == 0
+  puts "Usage : ./110borwein n";
+  exit(84);
+end;
+
+def calc(x, n)
+  a = 0;
+  result = 1;
+  while a <= n
+    if x != 0
+      result *= Math.sin(x / ((2 * a) + 1)) / (x / ((2 * a) + 1));
+    end;
+    a += 1;
+  end;
+  return (result);
+end
+
+;
+
+def rectangles(n)
+  music = Music.new("bonus/rectangle.mp3")
+  music.play
+  counter = 0;
+  result = 0.0;
+  h = 5000.0 / 10000.0;
+  while counter < 10000
+    result += calc(counter * h, n);
+    counter += 1;
+  end;
+  result *= h;
+  sleep(12);
+  puts "Rectangles:".green, "I" + n.to_s + " = %.10f" % result.to_s;
+  puts "diff = %.10f" % (result - (Math::PI / 2)).round(10).to_s;
+end
+
+;
+
+def trapezoids(n)
+  music = Music.new("bonus/trap.mp3")
+  music.play
+  counter = 1;
+  result = 0.0;
+  h = 5000.0 / 10000.0;
+  while counter < 10000
+    result += calc(counter * h, n);
+    counter += 1;
+  end;
+  result = 0.25 * (calc(0, n) + calc(5000, n) + 2 * result);
+  sleep(11);
+  puts "Trapezoids:".blue, "I" + n.to_s + " = %.10f" % result.to_s;
+  puts "diff = %.10f" % (result - (Math::PI / 2)).round(10).to_s;
+end
+
+;
+
+def simpson(n)
+  music = Music.new("bonus/simpsons.mp3")
+  music.play
+
+  counter = 1;
+  result1 = 0.0;
+  h = 5000.0 / 10000.0;
+  while counter < 10000
+    result1 += calc(counter * h, n);
+    counter += 1;
+  end;
+  result2 = 0.0;
+  counter = 0;
+  while counter < 10000
+    result2 += calc(counter * h + (h * 0.5), n);
+    counter += 1;
+  end;
+  result = 5000.0 / 60000.0 * (calc(0, n) + calc(5000, n) + 2 * result1 + 4 * result2);
+  sleep(15);
+  puts "Simpson:".red, "I" + n.to_s + " = %.10f" % result.to_s; counter = 1;
+  puts "diff = %.10f" % (result - (Math::PI / 2)).round(10).to_s;
+end
+
+;
+
+n = ARGV[0].to_i;
+i = 0;
+while i < ARGV[0].size
+  if ARGV[0][i].ord != "-".ord and (ARGV[0][i].ord < "0".ord or ARGV[0][i].ord > "9".ord)
+    puts "First argument should be a number, without other char"
+    exit(84);
+  end;
+  i += 1;
+end;
+
+if ARGV[0].to_i != ARGV[0].to_f
+  puts "First argument should be an integer"
+  exit(84);
+end;
+
+if ARGV[0].to_i < 0 or ARGV[0][0].ord == "-".ord
+  puts "First argument should be upper or equal to 0"
+  exit(84);
+end;
+
+if n > 1000
+  puts "First argument shoud be lower or equal to 1000"
+  exit(84);
+end;
+
+rectangles(n);
+puts ""
+trapezoids(n)
+puts ""
+simpson(n);

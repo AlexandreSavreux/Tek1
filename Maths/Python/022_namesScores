@@ -1,0 +1,36 @@
+#!/usr/bin/python3
+
+###################################################
+### Euler project
+### zdrassvouitie @ 10/2016
+###################################################
+import re
+
+
+
+file_name = 'names.txt'
+names = []
+numbers = []
+
+def string_sum(s:str) -> int:
+	res = 0
+	for l in list(s):
+		res += ord(l) - 96
+	return res
+
+
+with open(file_name,"r") as f:
+	temp = f.readline().split(",")
+for n in temp:
+	n = n.replace('"', '').lower()
+	names.append(n)
+names = sorted(names)
+
+for n in names:
+	pos = names.index(n) + 1
+	numbers.append(pos * string_sum(n))
+
+print(sum(numbers))
+
+
+

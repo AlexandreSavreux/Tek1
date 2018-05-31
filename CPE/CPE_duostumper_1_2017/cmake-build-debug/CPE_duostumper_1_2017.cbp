@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPE_duostumper_1_2017"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fractals">
+				<Option output="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/fractals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 fractals"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fractals/fast">
+				<Option output="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/fractals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 fractals/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/cmake-build-debug/CMakeFiles/feature_tests.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/include/get_next_line.h">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/include/my.h">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/include/stumper.h">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/free_array.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/get_next_line.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/get_next_line.h">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my.h">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_arrlen.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_cleanstr.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_getnbr.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_isneg.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_put_nbr.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_putchar.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_putstr.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_show_array.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_str_isalpha.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_str_isnum.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_str_isprintable.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_str_to_word_array.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_strcat.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_strcmp.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_strcpy.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_strdup.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_strdup_reac.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_strlen.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_strncat.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_strncmp.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_strncpy.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_strnlcpy.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/my_strnldup.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/lib/my/new_str.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/src/error_handling.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/src/main.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/tests/test_main.c">
+			<Option target="fractals"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_duostumper_1_2017/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

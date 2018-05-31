@@ -1,0 +1,26 @@
+#!/usr/bin/python3
+
+###################################################
+### Euler project
+### zdrassvouitie @ 01/2017
+###################################################
+
+file_name = '67_data'
+m = []
+with open(file_name,"r") as f:
+	while True:
+		try:
+			temp = list(map(lambda x: int(x), f.readline().rstrip().split(' ')))
+			m.append(temp)
+		except:
+			break
+m.reverse()
+
+while len(m) > 1:
+	work = m[1]
+	for j in range(len(work)):
+		m[1][j] = max(m[1][j]+m[0][j],m[1][j]+m[0][j+1])
+	del m[0]
+
+print(m,len(m))
+

@@ -1,0 +1,23 @@
+<!DOCTYPE  html>
+<html lang="en" id="cont">
+<head>
+    <title>Epytodo</title>
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/register.css">
+</head>
+<body>
+<center>Welcome to the <b>Epytodo Project</b>  made by <b>Florian LOUVET</b>, <b>Julien MONTAGNE</b> and <b>Jonathan
+    LEFEBVRE</b></center>
+<center><label id="login"><b>Not logged in</b></label></center>
+<div class="imgcontainer">
+    <br>
+    <img src="https://gitlab.clementdugal.fr/uploads/-/system/group/avatar/4/epitech.png" alt="Logo" class="Logo">
+</div>
+<a href="{{ url_for('route_register') }}">
+    <button id="btnReg">Register</button>
+</a>
+<a href="{{ url_for('route_signin') }}">
+    <button id="btnSend">Sign in</button>
+</a>
+</body>
+</html>

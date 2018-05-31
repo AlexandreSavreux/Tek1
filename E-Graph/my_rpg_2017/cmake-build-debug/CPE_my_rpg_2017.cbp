@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPE_my_rpg_2017"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_rpg">
+				<Option output="/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/my_rpg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tiflo/Projets/E-Graph/my_rpg_2017/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_rpg"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_rpg/fast">
+				<Option output="/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/my_rpg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tiflo/Projets/E-Graph/my_rpg_2017/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_rpg/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/cmake-build-debug/CMakeFiles/feature_tests.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/include/lib.h">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/include/map.h">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/include/my.h">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/include/particles.h">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/include/quest.h">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/include/rects.h">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/include/stats.h">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/include/structures.h">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_atoi.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_parser.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_printf.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_put_nbr.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_put_nbrbase.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_put_u_nbrbase.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_putchar.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_putstr.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_str_in_array.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_str_isnum.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_str_to_wordarray.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_strlen.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_strncpy.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/lib/my/my_strstr.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/create_elem.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/create_inventory.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/create_stats.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/destroy.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/display.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/display_inventory.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/display_menu.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/events.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/init_values.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/item_actions/ak47.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/item_actions/cut.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/item_actions/cut_movement.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/item_actions/rocket_launcher.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/item_actions/rocket_movement.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/main.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/map/change_map.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/map/check_map_change.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/map/create_map.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/map/movements.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/menu/display_logo.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/menu/event_main_menu.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/menu/menu.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/menu/resize_asset.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/menu/select_chicken.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/menu/select_chicken_second.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/menu/settings_main_menu.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/menu/settings_main_menu_second.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/particles.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/pnj/ak47_man.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/quests.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/quests_utils.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/rpg.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/stats.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/stats_utils.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/src/user_item.c">
+			<Option target="my_rpg"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/E-Graph/my_rpg_2017/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

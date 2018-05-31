@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="CPE_my_rpg_2017" targetName="my_rpg" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="733e67d9-c938-4a15-b3f5-349516284126" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="functions.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/functions.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1311">
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/my.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1472">
+              <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtins.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/builtins.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="59" column="15" lean-forward="true" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_cmd_cat.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my_cmd_cat.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parsing.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/parsing.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tab</find>
+      <find>carac</find>
+      <find>v</find>
+      <find>control</find>
+      <find>v.i</find>
+      <find>(a)</find>
+      <find>match</find>
+      <find>shell.</find>
+      <find>printf</find>
+      <find>y_strncpy</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>array</replace>
+      <replace>letter</replace>
+      <replace>var</replace>
+      <replace>shell</replace>
+      <replace>v.c</replace>
+      <replace>(signal)</replace>
+      <replace>my_strstr</replace>
+      <replace>shell-&gt;</replace>
+      <replace>my_printf</replace>
+      <replace>y_strncpy2</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/my_str_to_wordarray.c" />
+        <option value="$PROJECT_DIR$/src/my_child.c" />
+        <option value="$PROJECT_DIR$/include/my_bool.h" />
+        <option value="$PROJECT_DIR$/../Tests/Minishell1-master/main.c" />
+        <option value="$PROJECT_DIR$/src/child.c" />
+        <option value="$PROJECT_DIR$/../Tests/Minishell1-master/my_basicfct.c" />
+        <option value="$PROJECT_DIR$/lib/my/my_strcat.c" />
+        <option value="$PROJECT_DIR$/include/my_colours.h" />
+        <option value="$PROJECT_DIR$/../Epitech-tools/Arch-linux/Prepare_my_os.sh" />
+        <option value="$PROJECT_DIR$/lib/my/my_strncpy.c" />
+        <option value="$PROJECT_DIR$/lib/my/my_strstr.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/parsing.c" />
+        <option value="$PROJECT_DIR$/src/my_cmd_cat.c" />
+        <option value="$PROJECT_DIR$/lib/my/my_str_to_wordarray.c" />
+        <option value="$PROJECT_DIR$/lib/my/Makefile" />
+        <option value="$PROJECT_DIR$/include/my_minishell1.h" />
+        <option value="$PROJECT_DIR$/include/my.h" />
+        <option value="$PROJECT_DIR$/src/main.c" />
+        <option value="$PROJECT_DIR$/src/builtins.c" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/src/functions.c" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-36" />
+    <option name="y" value="40" />
+    <option name="width" value="915" />
+    <option name="height" value="721" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CPE_my_rpg_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell1_2017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CPE_my_rpg_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell1_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CPE_my_rpg_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell1_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CPE_my_rpg_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell1_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CPE_my_rpg_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell1_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="builtins" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/my" />
+      <recent name="$PROJECT_DIR$/include" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Makefile.re">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CPE_my_rpg_2017" RUN_TARGET_NAME="PSU_minishell1" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="my_rpg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CPE_my_rpg_2017" TARGET_NAME="my_rpg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CPE_my_rpg_2017" RUN_TARGET_NAME="my_rpg" />
+    <configuration name="Makefile" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+    </configuration>
+    <configuration name="re" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="re" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.my_rpg" />
+      <item itemvalue="Makefile.Makefile" />
+      <item itemvalue="Makefile.re" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.re" />
+        <item itemvalue="Makefile.Makefile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="733e67d9-c938-4a15-b3f5-349516284126" name="Default" comment="" />
+      <created>1516232277196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516232277196</updated>
+      <workItem from="1516232278475" duration="499000" />
+      <workItem from="1516261846568" duration="5362000" />
+      <workItem from="1516277995498" duration="1274000" />
+      <workItem from="1516496169757" duration="550000" />
+      <workItem from="1516564754241" duration="609000" />
+      <workItem from="1516568681139" duration="7826000" />
+      <workItem from="1516612094429" duration="295000" />
+      <workItem from="1516615097072" duration="72000" />
+      <workItem from="1516626958780" duration="5170000" />
+      <workItem from="1516638705342" duration="3803000" />
+      <workItem from="1516704570335" duration="3739000" />
+      <workItem from="1516724566434" duration="1689000" />
+      <workItem from="1516796031291" duration="200000" />
+      <workItem from="1516822597598" duration="5068000" />
+      <workItem from="1516933513379" duration="5395000" />
+      <workItem from="1517217156345" duration="32000" />
+      <workItem from="1517246350654" duration="800000" />
+      <workItem from="1517322982438" duration="817000" />
+      <workItem from="1517581640838" duration="2892000" />
+      <workItem from="1517585203857" duration="27000" />
+      <workItem from="1517818857316" duration="8000" />
+      <workItem from="1519117121529" duration="315000" />
+      <workItem from="1519121640917" duration="3166000" />
+      <workItem from="1519129674982" duration="3187000" />
+      <workItem from="1521533474685" duration="630000" />
+      <workItem from="1522318712819" duration="1864000" />
+      <workItem from="1522373137398" duration="3916000" />
+      <workItem from="1522399126041" duration="4153000" />
+      <workItem from="1522595660853" duration="8494000" />
+      <workItem from="1522668978781" duration="188000" />
+      <workItem from="1523439407662" duration="3578000" />
+      <workItem from="1523464954581" duration="2400000" />
+      <workItem from="1523549631268" duration="414000" />
+      <workItem from="1523551797775" duration="469000" />
+      <workItem from="1523584137641" duration="243000" />
+      <workItem from="1524145993929" duration="167000" />
+      <workItem from="1524147266219" duration="2721000" />
+      <workItem from="1524208339650" duration="785000" />
+      <workItem from="1527522943574" duration="841000" />
+    </task>
+    <task id="LOCAL-00001" summary="Ajout du bootstrap">
+      <created>1516263495420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516263495420</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Supression d'un printf de debug">
+      <created>1516264379530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516264379530</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajout de my_strncpy à la lib">
+      <created>1516264721432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516264721432</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ajout de my_str_to_wordarray">
+      <created>1516496644342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516496644342</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ajout de my_str_to_wordarray">
+      <created>1516568881083</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516568881083</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ajout d'une structure qui va contenir toutes les infos utiles au programme (fd, pid, taille du buffer, etc..)">
+      <created>1516571473020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1516571473020</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Correction du parsing de l'env + séparation des fonctions en fichiers distincs">
+      <created>1516571930465</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1516571930465</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Correction de quelques fautes de norme">
+      <created>1516572036837</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1516572036837</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Ajout de la boucle principale">
+      <created>1516573100552</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1516573100552</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ajout de la fonction my_strstr + Ajout de la fonction my_cd">
+      <created>1516573638452</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516573638452</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ajout du fichier builtins au Makefile + ajout de cd dans la boucle principale">
+      <created>1516573930285</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516573930285</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ajout du my_exit">
+      <created>1516574039274</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1516574039274</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ajout de la gestion du pid">
+      <created>1516574475557</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1516574475557</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ajout de la gestion de execve avec des commandes">
+      <created>1516574595929</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1516574595929</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Léger réglage d'affichage">
+      <created>1516574680498</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1516574680498</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Ajout de quelques includes + Début gestion cd et cd -">
+      <created>1516841963253</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1516841963253</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Ajout de la gestion des signaux">
+      <created>1516843101882</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1516843101882</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Ajout de la gestion du cd seul + supression du fichier child inutile">
+      <created>1516844733783</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1516844733783</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Optimisation de la fonction qui gère le PID">
+      <created>1516933819763</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1516933819763</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Amélioration du cd + gestion d'erreurs">
+      <created>1522615416260</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1522615416260</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Correction de quelques fautes de coding style">
+      <created>1522616724629</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1522616724629</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Supression des fichiers inutiles + debug du str_to_wordarray">
+      <created>1522618602256</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1522618602256</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Ajout du env">
+      <created>1522618952031</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1522618952031</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Supression du faux segfault">
+      <created>1523440668517</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1523440668517</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Correction du prompt">
+      <created>1523441503726</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1523441503726</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added minishell2">
+      <created>1527523074397</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1527523074397</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added minishell2">
+      <created>1527523213416</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1527523213416</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="83658000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="1025" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12113127" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.33027524" />
+      <window_info anchor="bottom" id="CMake" order="7" visible="true" weight="0.32844242" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3857635" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.27669346" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2497332" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.6254002" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="REST Client" order="9" weight="0.3298969" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20384204" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3344788" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.37993598" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.27720505" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.32942554" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout du bootstrap" />
+    <MESSAGE value="Supression d'un printf de debug" />
+    <MESSAGE value="Ajout de my_strncpy à la lib" />
+    <MESSAGE value="Ajout de my_str_to_wordarray" />
+    <MESSAGE value="Ajout d'une structure qui va contenir toutes les infos utiles au programme (fd, pid, taille du buffer, etc..)" />
+    <MESSAGE value="Correction du parsing de l'env + séparation des fonctions en fichiers distincs" />
+    <MESSAGE value="Correction de quelques fautes de norme" />
+    <MESSAGE value="Ajout de la boucle principale" />
+    <MESSAGE value="Ajout de la fonction my_strstr + Ajout de la fonction my_cd" />
+    <MESSAGE value="Ajout du fichier builtins au Makefile + ajout de cd dans la boucle principale" />
+    <MESSAGE value="Ajout du my_exit" />
+    <MESSAGE value="Ajout de la gestion du pid" />
+    <MESSAGE value="Ajout de la gestion de execve avec des commandes" />
+    <MESSAGE value="Léger réglage d'affichage" />
+    <MESSAGE value="Ajout de quelques includes + Début gestion cd et cd -" />
+    <MESSAGE value="Ajout de la gestion des signaux" />
+    <MESSAGE value="Ajout de la gestion du cd seul + supression du fichier child inutile" />
+    <MESSAGE value="Optimisation de la fonction qui gère le PID" />
+    <MESSAGE value="Amélioration du cd + gestion d'erreurs" />
+    <MESSAGE value="Correction de quelques fautes de coding style" />
+    <MESSAGE value="Supression des fichiers inutiles + debug du str_to_wordarray" />
+    <MESSAGE value="Ajout du env" />
+    <MESSAGE value="Supression du faux segfault" />
+    <MESSAGE value="Correction du prompt" />
+    <MESSAGE value="added minishell2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added minishell2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/my_cmd_cat.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/child.c" />
+    <entry file="file://$PROJECT_DIR$/lib/my/my_str_to_wordarray.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1586">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/my_bool.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1612">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/my.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/my_minishell1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/child.c" />
+    <entry file="file://$PROJECT_DIR$/include/my_bool.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_str_to_wordarray.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1612">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/my.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/my_minishell1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/child.c" />
+    <entry file="file://$PROJECT_DIR$/include/my_bool.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_str_to_wordarray.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my_str_to_wordarray.c" />
+    <entry file="file://$PROJECT_DIR$/../Tests/Minishell1-master/main.c" />
+    <entry file="file://$PROJECT_DIR$/../Tests/Minishell1-master/functions2.c" />
+    <entry file="file://$PROJECT_DIR$/../Tests/Minishell1-master/my_basicfct.c" />
+    <entry file="file://$PROJECT_DIR$/../Tests/Minishell1-master/functions.c" />
+    <entry file="file://$PROJECT_DIR$/../Epitech-tools/Arch-linux/Prepare_my_os.sh" />
+    <entry file="file://$PROJECT_DIR$/src/child.c" />
+    <entry file="file://$PROJECT_DIR$/lib/my/my_strncpy.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_put_nbrbase.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/get_next_line.c" />
+    <entry file="file://$PROJECT_DIR$/lib/my/my_strstr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/get_next_line.h" />
+    <entry file="file://$PROJECT_DIR$/../../Tests/Minishell1-master/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_printf.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_str_to_wordarray2.c" />
+    <entry file="file://$PROJECT_DIR$/lib/my/get_next_line.c" />
+    <entry file="file://$PROJECT_DIR$/include/my_colours.h" />
+    <entry file="file://$PROJECT_DIR$/lib/my/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_str_to_wordarray.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/my_bool.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/my.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/my_minishell1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my_cmd_cat.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsing.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builtins.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="59" column="15" lean-forward="true" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PSU_minishell2_2017"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mysh">
+				<Option output="/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/mysh" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tiflo/Projets/PSU/PSU_minishell2_2017/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 mysh"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mysh/fast">
+				<Option output="/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/mysh" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tiflo/Projets/PSU/PSU_minishell2_2017/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 mysh/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/cmake-build-debug/CMakeFiles/feature_tests.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/include/my.h">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/include/my_minishell2.h">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_array_dup.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_array_free.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_atoi.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_clean_str.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_evil_str.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_memset.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_parser.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_printf.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_put_nbr.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_put_nbrbase.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_put_u_nbrbase.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_putchar.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_puterror.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_putstr.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_show_array.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_str_isalpha.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_str_isnum.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_str_to_wordarray.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_strcat.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_strcpy.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_strdup.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_strlen.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_strncat.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_strncmp.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_strncpy.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/lib/my/my_strstr.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/builtins.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/builtins/my_cd.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/builtins/my_env.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/builtins/my_exit.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/builtins/my_setenv.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/builtins/my_unsetenv.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/env/setenv.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/env/unsetenv.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/functions.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/main.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/my_cmd_cat.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/parsing.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/utils/advanced_parsing.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/utils/check_if_cmd_exist.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/utils/recup_from_env.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/src/utils/signals.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/test.c">
+			<Option target="mysh"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/PSU/PSU_minishell2_2017/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

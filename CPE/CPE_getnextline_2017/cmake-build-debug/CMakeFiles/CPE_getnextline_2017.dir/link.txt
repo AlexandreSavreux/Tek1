@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/CPE_getnextline_2017.dir/get_next_line.c.o CMakeFiles/CPE_getnextline_2017.dir/main.c.o  -o CPE_getnextline_2017 

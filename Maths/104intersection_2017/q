@@ -1,0 +1,89 @@
+[33mcommit 2cbb13b0e84db8701f15130667fc9cd77e52ad4b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Sun Jan 7 00:48:32 2018 +0100
+
+    Ajout gestion du vecteur nul
+
+[33mcommit ae69e0359077d7960a97c15509b51c03180fc07b[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Sat Jan 6 16:45:12 2018 +0100
+
+    Ajout du \n manquant pour le cas infini
+
+[33mcommit c4ebf14dad6989ce63c6b3b1559d4983b03b93e8[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Sat Jan 6 16:35:55 2018 +0100
+
+    Correction formule pour le cone
+
+[33mcommit 71f7be8e0e2ddec4b5c5fe1f54f4d423dd030b53[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Sat Jan 6 06:25:29 2018 +0100
+
+    Changement de Makefile pour la lib
+
+[33mcommit 3047bacb97401eebb2a5f37acf5412bfebc50d8f[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Sat Jan 6 05:50:00 2018 +0100
+
+    Ajout gestion cas infinis + modification de l'architecure du programme
+
+[33mcommit be248a6c9cc543f8999b88ab1fa260fcb68466fe[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Sat Jan 6 05:00:39 2018 +0100
+
+    Correction de toutes les formules de my_operations
+
+[33mcommit 5ac4556068c37620065b046aa45a69421e82df8b[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Sat Jan 6 03:52:08 2018 +0100
+
+    L'angle doit être 0 < angle > 90 et le rayon positif
+
+[33mcommit 51ff4b5e0c19b344b09309fd68156076a1ae4cba[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Sat Jan 6 03:43:52 2018 +0100
+
+    Amélioration de la gestion d'erreurs + ajout fonction my_puterror qui affiche sur la sortie d'erreur standard
+
+[33mcommit ee86083d98dc2476989e5716ce0ae1f506929223[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Sat Jan 6 02:06:05 2018 +0100
+
+    Séparation du main dans un fichier seul + gestion du cas où un argument n'est pas un nombre
+
+[33mcommit adf3698096f122c95d0689a2fc4266843be5ae64[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Sat Jan 6 02:01:27 2018 +0100
+
+    Optimisation des déclarations multiples
+
+[33mcommit f0ee2c431dbe7954335811848e1475857e6b39aa[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Sat Jan 6 01:55:03 2018 +0100
+
+    Correction du my_str_isnum
+
+[33mcommit e0b41be8b22e1a838cb3df12f4a9a8ad2669e91c[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Fri Jan 5 15:30:37 2018 +0100
+
+    Correction de l'affichage
+
+[33mcommit f2a11309ec629cc7d8847a30bb915f1224b0f85b[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Fri Jan 5 15:18:46 2018 +0100
+
+    Correction de x1 (mauvaise formule)
+
+[33mcommit 3e247277008993aff8b713bee3c0e5396455439c[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Fri Jan 5 15:11:00 2018 +0100
+
+    Correction de delta + code un peu plus propre
+
+[33mcommit 5b179c9f63207cacb22f70c887ac94ed8e78a1f9[m
+Author: Florian Louvet <florian.louvet@epitech.eu>
+Date:   Fri Jan 5 14:45:58 2018 +0100
+
+    Ajout de toutes les fonctions

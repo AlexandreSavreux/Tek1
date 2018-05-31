@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="PSU_minishell2_2017" targetName="mysh" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48a98337-2f8c-4285-9ae9-33c0075b1d95" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+    </list>
+    <list id="caf4dde8-16fe-45bf-97b5-8a93aaab7211" name="Revert &quot;Imported minishell1&quot;" comment="Revert &quot;Imported minishell1&quot;&#10;&#10;This reverts commit 8877cd9" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="signals.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/signals.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recup_from_env.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/utils/recup_from_env.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_if_cmd_exist.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/check_if_cmd_exist.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1334">
+              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parsing.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/parsing.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_cmd_cat.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/my_cmd_cat.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/functions.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="989">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="advanced_parsing.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/advanced_parsing.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>idx</find>
+      <find />
+      <find>t_uint</find>
+      <find>copy_array_without</find>
+      <find>env</find>
+      <find>my_path</find>
+      <find>strcmp</find>
+      <find>my_sign</find>
+      <find>str[i]</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>i</replace>
+      <replace>++</replace>
+      <replace>int</replace>
+      <replace>del_in_ar</replace>
+      <replace>shell-&gt;env</replace>
+      <replace>my_strstr</replace>
+      <replace>str</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/env/manage_env.c" />
+        <option value="$PROJECT_DIR$/src/pipe.c" />
+        <option value="$PROJECT_DIR$/src/setenv.c" />
+        <option value="$PROJECT_DIR$/include/my_bool.h" />
+        <option value="$PROJECT_DIR$/lib/my/my_array_free.c" />
+        <option value="$PROJECT_DIR$/tests" />
+        <option value="$PROJECT_DIR$/include/my_minishell1.h" />
+        <option value="$PROJECT_DIR$/lib/my/my_strncat.c" />
+        <option value="$PROJECT_DIR$/src/my_cmd_cat.c" />
+        <option value="$PROJECT_DIR$/lib/my/my_array_dup.c" />
+        <option value="$PROJECT_DIR$/include/get_next_line.h" />
+        <option value="$PROJECT_DIR$/lib/my/my_strncpy.c" />
+        <option value="$PROJECT_DIR$/lib/my/my_strstr.c" />
+        <option value="$PROJECT_DIR$/lib/my/my_strncmp.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/env/unsetenv.c" />
+        <option value="$PROJECT_DIR$/lib/my/my_strcpy.c" />
+        <option value="$PROJECT_DIR$/include/my_minishell2.h" />
+        <option value="$PROJECT_DIR$/src/main.c" />
+        <option value="$PROJECT_DIR$/src/builtins.c" />
+        <option value="$PROJECT_DIR$/src/utils/check_if_cmd_exist.c" />
+        <option value="$PROJECT_DIR$/src/builtins/my_env.c" />
+        <option value="$PROJECT_DIR$/src/builtins/my_exit.c" />
+        <option value="$PROJECT_DIR$/src/parsing.c" />
+        <option value="$PROJECT_DIR$/lib/my/my_strdup.c" />
+        <option value="$PROJECT_DIR$/src/utils/recup_from_env.c" />
+        <option value="$PROJECT_DIR$/lib/my/my_str_isalpha.c" />
+        <option value="$PROJECT_DIR$/include/my.h" />
+        <option value="$PROJECT_DIR$/src/env/setenv.c" />
+        <option value="$PROJECT_DIR$/lib/my/Makefile" />
+        <option value="$PROJECT_DIR$/lib/my/my_clean_str.c" />
+        <option value="$PROJECT_DIR$/lib/my/my_str_to_wordarray.c" />
+        <option value="$PROJECT_DIR$/src/builtins/my_unsetenv.c" />
+        <option value="$PROJECT_DIR$/src/utils/signals.c" />
+        <option value="$PROJECT_DIR$/src/functions.c" />
+        <option value="$PROJECT_DIR$/src/builtins/my_cd.c" />
+        <option value="$PROJECT_DIR$/src/builtins/my_setenv.c" />
+        <option value="$PROJECT_DIR$/Makefile" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="1020" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PSU_minishell2_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell2_2017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSU_minishell2_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell2_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSU_minishell2_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell2_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSU_minishell2_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell2_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSU_minishell2_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell2_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSU_minishell2_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell2_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="builtins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSU_minishell2_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell2_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="env" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PSU_minishell2_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PSU_minishell2_2017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib/my" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/lib/" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Makefile.re">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PSU_minishell2_2017" RUN_TARGET_NAME="mysh" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="mysh" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PSU_minishell2_2017" TARGET_NAME="mysh" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PSU_minishell2_2017" RUN_TARGET_NAME="mysh" />
+    <configuration name="Makefile (1)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+    </configuration>
+    <configuration name="Makefile (2)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+    </configuration>
+    <configuration name="Makefile (3)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/lib/my/Makefile" target="" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+    </configuration>
+    <configuration name="debug" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="debug" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+    </configuration>
+    <configuration name="re" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="re" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.mysh" />
+      <item itemvalue="Makefile.Makefile (1)" />
+      <item itemvalue="Makefile.Makefile (3)" />
+      <item itemvalue="Makefile.Makefile (2)" />
+      <item itemvalue="Makefile.re" />
+      <item itemvalue="Makefile.debug" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.re" />
+        <item itemvalue="Makefile.debug" />
+        <item itemvalue="Makefile.Makefile (2)" />
+        <item itemvalue="Makefile.Makefile (3)" />
+        <item itemvalue="Makefile.Makefile (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48a98337-2f8c-4285-9ae9-33c0075b1d95" name="Default" comment="" />
+      <created>1521534104866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521534104866</updated>
+      <workItem from="1521534106091" duration="9648000" />
+      <workItem from="1522149082624" duration="6000" />
+      <workItem from="1522778865542" duration="599000" />
+      <workItem from="1522843214036" duration="9000" />
+      <workItem from="1523003560816" duration="5433000" />
+      <workItem from="1523438873131" duration="532000" />
+      <workItem from="1523584382775" duration="360000" />
+      <workItem from="1523608361497" duration="5866000" />
+      <workItem from="1523625384482" duration="117000" />
+      <workItem from="1523802894352" duration="11771000" />
+      <workItem from="1523823440262" duration="5682000" />
+      <workItem from="1523867723093" duration="64000" />
+      <workItem from="1523868369428" duration="9316000" />
+      <workItem from="1524143899548" duration="775000" />
+      <workItem from="1524146162390" duration="775000" />
+      <workItem from="1524653850038" duration="1307000" />
+      <workItem from="1525415775628" duration="3305000" />
+      <workItem from="1525619351126" duration="4082000" />
+      <workItem from="1525777412141" duration="34000" />
+      <workItem from="1525867407764" duration="49000" />
+      <workItem from="1525872110093" duration="2408000" />
+      <workItem from="1525941311783" duration="796000" />
+      <workItem from="1525970120731" duration="1452000" />
+      <workItem from="1525979168190" duration="790000" />
+      <workItem from="1526021808129" duration="323000" />
+      <workItem from="1526034651538" duration="12896000" />
+      <workItem from="1526084720658" duration="15295000" />
+      <workItem from="1526219781136" duration="1213000" />
+      <workItem from="1526301238317" duration="126000" />
+      <workItem from="1526483659049" duration="1257000" />
+      <workItem from="1526558304760" duration="365000" />
+      <workItem from="1526578203837" duration="8510000" />
+      <workItem from="1526643615859" duration="20114000" />
+      <workItem from="1526841668564" duration="12000" />
+      <workItem from="1526999351822" duration="53000" />
+      <workItem from="1527002780925" duration="121000" />
+      <workItem from="1527087179124" duration="271000" />
+      <workItem from="1527159661231" duration="740000" />
+      <workItem from="1527172047419" duration="964000" />
+      <workItem from="1527203239498" duration="5022000" />
+      <workItem from="1527235297009" duration="4836000" />
+      <workItem from="1527517756777" duration="2657000" />
+      <workItem from="1527523786906" duration="527000" />
+      <workItem from="1527754207657" duration="12000" />
+    </task>
+    <task id="LOCAL-00001" summary="Pushed for TAs">
+      <created>1523007067084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523007067084</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Included missing file">
+      <created>1523007550453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523007550453</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Imported minishell1">
+      <created>1523584626359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523584626360</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Correccted compilation errors">
+      <created>1523609763836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523609763836</updated>
+    </task>
+    <task id="LOCAL-00005" summary="It's better with a Makefile">
+      <created>1523610336159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523610336159</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed display and import some lib functions">
+      <created>1523613516918</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523613516918</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed read method">
+      <created>1523802996705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523802996708</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Supressed GNL and its header&#10;Supressed some tests with pipes&#10;Supressed some missplaced frees">
+      <created>1523808436545</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1523808436545</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Improved my_env and started from scratch my_setenv">
+      <created>1523813849144</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1523813849144</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added a tricky unsetenv to have a full MS1 at least">
+      <created>1523827661481</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1523827661481</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Replaced tricky read by a good getline and deleted the trailing space">
+      <created>1523893386650</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1523893386650</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Split functions in two different part and started multi cmds handling">
+      <created>1525416326269</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1525416326269</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added good command not found print">
+      <created>1525619627649</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1525619627649</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Deleted segfault when PATH is unset">
+      <created>1525625895891</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1525625895891</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Managed CTRL + C and improved setenv &amp; exit functions">
+      <created>1525873282658</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1525873282658</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Deleted some compilation warnings">
+      <created>1525979206628</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1525979206628</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated env handling and debug the code">
+      <created>1526084756120</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1526084756120</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fixed the method to call builtins and others commands">
+      <created>1526095090020</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1526095090020</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Deleted one useless file and started error handling">
+      <created>1526099819593</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1526099819593</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Finished error handling on my_cd and started to fix unsetenv function">
+      <created>1526105799851</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1526105799851</updated>
+    </task>
+    <task id="LOCAL-00021" summary="modified architecture and added a clean str to delete useless spaces">
+      <created>1526586746830</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1526586746830</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Fixed unsetenv">
+      <created>1526589058187</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1526589058187</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Debug PATH">
+      <created>1526646145737</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1526646145737</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Implemented cd -">
+      <created>1526656373130</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1526656373130</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Implemented correct return">
+      <created>1526662305910</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1526662305910</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Need to finished error handling on setenv">
+      <created>1526665001039</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1526665001039</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Debug setenv error handling">
+      <created>1527172447744</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1527172447744</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Corrected problems with recup_from_env and also normalized the code">
+      <created>1527205504363</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1527205504363</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Give me jalon svp">
+      <created>1527210547891</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1527210547891</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Fixed some valgrind errors">
+      <created>1527235933657</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1527235933657</updated>
+    </task>
+    <task id="LOCAL-00031" summary="normalized">
+      <created>1527522769544</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1527522769544</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="140490000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="1025" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22998933" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="CMake" order="0" weight="0.32844242" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.17155756" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.23615819" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.3633938" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295063" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Supressed GNL and its header&#10;Supressed some tests with pipes&#10;Supressed some missplaced frees" />
+    <MESSAGE value="Improved my_env and started from scratch my_setenv" />
+    <MESSAGE value="Added a tricky unsetenv to have a full MS1 at least" />
+    <MESSAGE value="Replaced tricky read by a good getline and deleted the trailing space" />
+    <MESSAGE value="Split functions in two different part and started multi cmds handling" />
+    <MESSAGE value="Added good command not found print" />
+    <MESSAGE value="Deleted segfault when PATH is unset" />
+    <MESSAGE value="Managed CTRL + C" />
+    <MESSAGE value="Managed CTRL + C and improved setenv &amp; exit functions" />
+    <MESSAGE value="Deleted some compilation warnings" />
+    <MESSAGE value="Updated env handling and debug the code" />
+    <MESSAGE value="Fixed the method to call builtins and others commands" />
+    <MESSAGE value="Deleted one useless file and started error handling" />
+    <MESSAGE value="Finished error handling on my_cd and started to fix unsetenv function" />
+    <MESSAGE value="modified architecture and added a clean str to delete useless spaces" />
+    <MESSAGE value="Fixed unsetenv" />
+    <MESSAGE value="Debug PATH" />
+    <MESSAGE value="Implemented cd -" />
+    <MESSAGE value="Implemented correct return" />
+    <MESSAGE value="Need to finished error handling on setenv" />
+    <MESSAGE value="Debug setenv error handling" />
+    <MESSAGE value="Corrected problems with recup_from_env and also normalized the code" />
+    <MESSAGE value="Give me jalon svp" />
+    <MESSAGE value="Fixed some valgrind errors" />
+    <MESSAGE value="normalized" />
+    <option name="LAST_COMMIT_MESSAGE" value="normalized" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/pipe.c" />
+    <entry file="file://$PROJECT_DIR$/src/pipe.c" />
+    <entry file="file://$PROJECT_DIR$/src/pipe.c" />
+    <entry file="file://$PROJECT_DIR$/src/pipe.c" />
+    <entry file="file://$PROJECT_DIR$/src/pipe.c" />
+    <entry file="file://$PROJECT_DIR$/lib/my/my_puterror.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setenv.c" />
+    <entry file="file://$PROJECT_DIR$/src/pipe.c" />
+    <entry file="file://$PROJECT_DIR$/tests" />
+    <entry file="file://$PROJECT_DIR$/src/get_next_line.c" />
+    <entry file="file://$PROJECT_DIR$/lib/my/my_str_isnum.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_atoi.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="14" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/signal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_memset.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/get_next_line.h" />
+    <entry file="file://$PROJECT_DIR$/include/my_bool.h" />
+    <entry file="file://$PROJECT_DIR$/lib/my/my_array_dup.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_strcat.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_strncat.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_array_free.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/env/manage_env.c" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_strncpy.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/my_minishell2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_strstr.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_strdup.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builtins.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_strncmp.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_strcpy.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/my.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_str_isalpha.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_clean_str.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/my_str_to_wordarray.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builtins/my_exit.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/env/unsetenv.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="60" column="66" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/env/setenv.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builtins/my_setenv.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builtins/my_unsetenv.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builtins/my_env.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builtins/my_cd.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+          <folding>
+            <element signature="e#96#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/signals.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/advanced_parsing.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/check_if_cmd_exist.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsing.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/my_cmd_cat.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/recup_from_env.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

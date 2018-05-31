@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/CPE_solostumper_2_2017.dir/src/main.c.o CMakeFiles/CPE_solostumper_2_2017.dir/lib/my/my_strdup.c.o  -o CPE_solostumper_2_2017 

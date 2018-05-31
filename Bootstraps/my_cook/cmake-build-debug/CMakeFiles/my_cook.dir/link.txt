@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/my_cook.dir/src/main.c.o  -o my_cook 

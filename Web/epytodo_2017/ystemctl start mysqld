@@ -1,0 +1,20 @@
+[0;1;31m●[0m mariadb.service - MariaDB 10.1.31 database server
+   Loaded: loaded (/usr/lib/systemd/system/mariadb.service; disabled; vendor preset: disabled)
+   Active: [0;1;31mfailed[0m (Result: exit-code) since Tue 2018-03-27 11:50:52 CEST; 2min 15s ago
+     Docs: man:mysqld(8)
+           https://mariadb.com/kb/en/library/systemd/
+  Process: 8725 ExecStart=/usr/bin/mysqld $MYSQLD_OPTS $_WSREP_NEW_CLUSTER $_WSREP_START_POSITION [0;1;31m(code=exited, status=1/FAILURE)[0m
+  Process: 8673 ExecStartPre=/bin/sh -c [ ! -e /usr/bin/galera_recovery ] && VAR= ||   VAR=`/usr/bin/galera_recovery`; [ $? -eq 0 ]   && systemctl set-environment _WSREP_START_POSITION=$VAR || exit 1 (code=exited, status=0/SUCCESS)
+  Process: 8672 ExecStartPre=/bin/sh -c systemctl unset-environment _WSREP_START_POSITION (code=exited, status=0/SUCCESS)
+ Main PID: 8725 (code=exited, status=1/FAILURE)
+
+mars 27 11:50:52 arch-tiflo mysqld[8725]: 2018-03-27 11:50:52 140422834243328 [Note] InnoDB: Dumping buffer pool(s) not yet started
+mars 27 11:50:52 arch-tiflo mysqld[8725]: 2018-03-27 11:50:52 140423464644544 [Note] Plugin 'FEEDBACK' is disabled.
+mars 27 11:50:52 arch-tiflo mysqld[8725]: 2018-03-27 11:50:52 140423464644544 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+mars 27 11:50:52 arch-tiflo mysqld[8725]: 2018-03-27 11:50:52 140423464622848 [Warning] Failed to load slave replication state from table mysql.gtid_slave_pos: 1146: Table 'mysql.gtid_slave_pos' doesn't exist
+mars 27 11:50:52 arch-tiflo mysqld[8725]: 2018-03-27 11:50:52 140423464644544 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+mars 27 11:50:52 arch-tiflo mysqld[8725]: 2018-03-27 11:50:52 140423464644544 [Note] Server socket created on IP: '::'.
+mars 27 11:50:52 arch-tiflo mysqld[8725]: 2018-03-27 11:50:52 140423464644544 [ERROR] Fatal error: Can't open and lock privilege tables: Table 'mysql.user' doesn't exist
+mars 27 11:50:52 arch-tiflo systemd[1]: [0;1;39m[0;1;31m[0;1;39mmariadb.service: Main process exited, code=exited, status=1/FAILURE[0m
+mars 27 11:50:52 arch-tiflo systemd[1]: [0;1;39m[0;1;31m[0;1;39mmariadb.service: Failed with result 'exit-code'.[0m
+mars 27 11:50:52 arch-tiflo systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MariaDB 10.1.31 database server.[0m

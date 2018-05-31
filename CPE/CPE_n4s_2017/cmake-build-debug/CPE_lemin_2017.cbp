@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPE_lemin_2017"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lemin">
+				<Option output="/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/lemin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tiflo/Projets/CPE/CPE_n4s_2017/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 lemin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lemin/fast">
+				<Option output="/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/lemin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tiflo/Projets/CPE/CPE_n4s_2017/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 lemin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/common/shared_memory.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/_dirent.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/luaFunctionData.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/luaFunctionDataItem.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/scriptFunctionData.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/scriptFunctionDataItem.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/shared_memory.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/socketInConnection.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/socketOutConnection.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/stack/stackArray.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/stack/stackBool.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/stack/stackMap.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/stack/stackNull.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/stack/stackNumber.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/stack/stackObject.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/stack/stackString.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/v_repConst.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/v_repLib.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/include/v_repTypes.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/remoteApi/extApi.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/remoteApi/extApi.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/remoteApi/extApiInternal.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/remoteApi/extApiPlatform.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/remoteApi/extApiPlatform.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/remoteApiBindings/java/extApiJava.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/remoteApiBindings/lua/luaData.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/remoteApiBindings/lua/luaDataItem.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/3Vector.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/3X3Matrix.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/4Vector.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/4X4FullMatrix.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/4X4Matrix.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/6Vector.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/6X6Matrix.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/7Vector.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/MMatrix.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/MyMath.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/VPoint.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/Vector.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/V-REP_PRO_EDU_V3_5_0_Linux/programming/v_repMath/mathDefines.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/cmake-build-debug/CMakeFiles/feature_tests.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/get_next_line.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_atoi.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_parser.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_printf.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_put_nbr.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_put_nbrbase.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_put_u_nbrbase.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_putchar.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_putstr.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_str_in_array.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_str_isnum.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_str_to_wordarray.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_strlen.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_strncpy.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/lib/my/my_strstr.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/n4s_package/ai.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/src/error_handling.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/src/main.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/src/opener.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/src/print_tunnel.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/home/tiflo/Projets/CPE/CPE_n4s_2017/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/107transfer_2017.dir/src/main.c.o CMakeFiles/107transfer_2017.dir/src/error.c.o CMakeFiles/107transfer_2017.dir/src/second_file.c.o CMakeFiles/107transfer_2017.dir/src/sort_number.c.o  -o 107transfer_2017 

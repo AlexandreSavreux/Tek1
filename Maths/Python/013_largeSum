@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+
+###################################################
+### Euler project
+### zdrassvouitie @ 10/2016
+###################################################
+
+file_name = '013_largeSum_data'
+tot = 0
+with open(file_name, "r") as f:
+    stop = 1
+    while stop != 0:
+        line = f.readline()
+        if len(line) < 1:
+            break
+        tot += float(line)
+
+print(tot)

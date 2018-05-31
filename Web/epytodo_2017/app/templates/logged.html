@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logged</title>
+    <link rel="stylesheet" href="../static/css/register.css">
+</head>
+<body>
+<div class="imgcontainer">
+    <img src="https://gitlab.clementdugal.fr/uploads/-/system/group/avatar/4/epitech.png" alt="Logo" class="Logo">
+</div>
+
+<br>
+
+    <label for="title_add"><b>Title</b></label>
+    <input type="text" id="title_add" placeholder="Add the title of the task" name="title_add" required>
+<br><br>
+    <label for="begin_add"><b>Begin</b></label>
+    <input type="text" id="begin_add" placeholder="Add the beginning date" name="begin_add" required>
+<br><br>
+    <label for="end_add"><b>End</b></label>
+    <input type="text" id="end_add" placeholder="Add the deadline" name="end_add" required><br><br>
+    <label for="status_add"><b>Status</b></label>
+    <select id="status_add">
+        <option value="not started">Not started</option>
+        <option value="in progress">In progress</option>
+        <option value="done">Done</option>
+    </select>
+
+<br><br>
+
+<button id="btnSend_add">Send the task</button>
+
+<br><br><br>
+
+    <label for="title_mod"><b>Title</b></label>
+    <input type="text" id="title_mod" placeholder="Add the title of the task" name="title_mod" required>
+<br><br>
+    <label for="begin_mod"><b>Begin</b></label>
+    <input type="text" id="begin_mod" placeholder="Add the beginning date" name="begin_mod" required>
+<br><br>
+    <label for="end_mod"><b>End</b></label>
+    <input type="text" id="end_mod" placeholder="Add the deadline" name="end_mod" required>
+<br><br>
+    <label for="status_mod"><b>Status</b></label>
+    <select id="status_mod">
+        <option value="not started">Not started</option>
+        <option value="in progress">In progress</option>
+        <option value="done">Done</option>
+    </select>
+
+<br><br>
+
+<button id="btnSend_mod">Send the task</button>
+
+<br><br><br>
+
+    <label for="title_del"><b>Title</b></label>
+    <input type="text" id="title_del" placeholder="Add the title of the task" name="title_del" required>
+    <br><br>
+    <label for="begin_del"><b>Begin</b></label>
+    <input type="text" id="begin_del" placeholder="Add the beginning date" name="begin_del" required>
+    <br><br>
+    <label for="end_del"><b>End</b></label>
+    <input type="text" id="end_del" placeholder="Add the deadline" name="end_del" required>
+    <br><br>
+    <label for="status_del"><b>Status</b></label>
+    <select id="status_del">
+        <option value="not started">Not started</option>
+        <option value="in progress">In progress</option>
+        <option value="done">Done</option>
+    </select>
+
+<br><br>
+
+<button id="btnSend_del">Send the task</button>
+
+<br><br><br>
+<div class="container" style="background-color:#f1f1f1">
+        <button type="button" id="btnSignout" class="cancelbtn">Sign out</button>
+</div>
+
+<br>
+
+<div class="container" style="background-color:#f1f1f1">
+    <a href="{{ url_for('route_index') }}">
+        <button type="button" class="cancelbtn">Back</button>
+    </a>
+</div>
+
+</body>
+</html>
+<script src="../static/js/jquery-3.3.1.min.js"></script>
+<script src="../static/js/logged.js"></script>

@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/my_rpg.dir/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c.o"
+  "CMakeFiles/my_rpg.dir/CMakeFiles/feature_tests.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/arrdup.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/free_array.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/get_next_line.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_arrlen.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_cleanstr.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_gest_error_gnl.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_getnbr.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_isneg.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_put_nbr.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_putchar.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_putstr.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_show_array.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_str_isalpha.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_str_isnum.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_str_isprintable.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_str_to_word_array.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_strcat.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_strcmp.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_strcpy.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_strdup.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_strdup_reac.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_strlen.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_strncat.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_strncmp.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_strncpy.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_strnlcpy.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/my_strnldup.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/new_str.c.o"
+  "CMakeFiles/my_rpg.dir/lib/my/special_array.c.o"
+  "CMakeFiles/my_rpg.dir/src/counter.c.o"
+  "CMakeFiles/my_rpg.dir/src/main.c.o"
+  "my_rpg.pdb"
+  "my_rpg"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/my_rpg.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
